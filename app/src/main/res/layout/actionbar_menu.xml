@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent">
+    <LinearLayout
+        android:id="@+id/action_bar_left_ly"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="7dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/white_rounded_feeds_bg"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_cart_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/action_bar_left_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:text="已下单的菜"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="middle"
+        android:gravity="center"
+        android:maxWidth="280dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/action_bar_right_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="3dp"
+        tools:text="菜类"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/ab_round_tip_view"
+        android:layout_alignRight="@id/action_bar_right_view"
+        android:layout_width="10dp"
+        android:layout_height="10dp"/>
+
+</RelativeLayout>

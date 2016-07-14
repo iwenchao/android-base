@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#498aee</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#E91E63</color>
+
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white70transparent">#4DFFFFFF</color>
+    <color name="white50cap">#80FFFFFF</color>
+    <color name="white25cap">#40FFFFFF</color>
+    <color name="white15cap">#26FFFFFF</color>
+    <color name="white12cap">#1fFFFFFF</color>
+    <color name="app_primary">#e02200</color>
+    <color name="cloud_tip_bg">#CCe02200</color>
+    <color name="title_common">#333333</color>
+    <color name="content_common">#666666</color>
+    <color name="subcontent_common">#969696</color>
+    <color name="cloud_cart_label">#006fce</color>
+    <color name="subcontent_common70cap">#4D969696</color>
+    <color name="item_tip_common">#c8c8c8</color>
+    <color name="tip_common">#ffa21c</color>
+    <color name="background_common">#ececec</color>
+    <color name="shadow_line">#D7D7D7</color>
+    <color name="color_scheme_1_1">#33B5E5</color>
+    <color name="color_scheme_1_2">#99CC00</color>
+    <color name="color_scheme_1_3">#FFBB33</color>
+    <color name="color_scheme_1_4">#FF4444</color>
+    <color name="tab_text_pay_order">#f0f0f0</color>
+    <color name="tab_text_normal">#cfc6c4</color>
+    <color name="qr_index_header_bg">#ce1f00</color>
+    <color name="qr_corner_blue">#07bb8e</color>
+    <color name="tab_indicator_bg">#444444</color>
+    <color name="bottom_bg">#F2F2F2</color>
+    <color name="capture_bottem_bg">#4D000000</color>
+    <color name="list_common_white_with_95_caps">#F2FFFFFF</color>
+    <color name="list_common_white_with_90_caps">#E6FFFFFF</color>
+    <color name="list_common_white_with_85_caps">#D9FFFFFF</color>
+    <color name="list_common_white_with_80_caps">#CCFFFFFF</color>
+    <color name="list_common_white_with_10_caps">#1AFFFFFF</color>
+    <color name="black_with_15_caps">#26000000</color>
+    <color name="black_with_25_caps">#40000000</color>
+    <color name="black_with_50_caps">#80000000</color>
+    <color name="black_with_80_caps">#CC000000</color>
+    <color name="black_with_70_caps">#B3000000</color>
+    <color name="default_aciton_bar_bg_color">#E6787366</color>
+    <color name="default_tab_bar_bg_color">#F25c3726</color>
+    <color name="darker_shadow_line">#BBBBBB</color>
+    <color name="color_menu_other">#006fce</color>
+    <color name="color_menu_my">#e02200</color>
+    <!-- instance status bg -->
+    <color name="instance_red_status_bg">#e02200</color>
+    <color name="instance_yellow_status_bg">#ffa21c</color>
+    <color name="instance_green_status_bg">#00c297</color>
+    <color name="instance_blue_status_bg">#00aadb</color>
+    <color name="color_group_tab">#999999</color>
+    <!-- drop down list header font color -->
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#000000</color>
+
+    <color name="addition_title_bg">#E6E6E6</color>
+</resources>

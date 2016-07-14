@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">资讯</string>
+
+
+    <string name="error_genernal">error</string>
+    <string name="network_error_info">当前网络不通，请先检查设备网络</string>
+</resources>
