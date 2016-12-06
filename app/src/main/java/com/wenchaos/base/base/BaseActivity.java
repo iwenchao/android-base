@@ -23,7 +23,6 @@ import com.wenchaos.base.base.mvp.BasePresent;
 import com.wenchaos.base.base.util.TUtil;
 import com.wenchaos.base.data.BusProvider;
 import com.wenchaos.base.view.dialog.ProgressAnimateDialog;
-import com.wenchaos.base.view.dialog.ProgressAnimateDialog_;
 import com.wenchaos.base.view.layout.SwipeBackLayout;
 
 import butterknife.ButterKnife;
@@ -185,12 +184,12 @@ public abstract class BaseActivity<T extends BasePresent,E extends BaseModel> ex
             return;
         }
         removePrevDialog(ANIMATED_LOADING_DIALOG);
-        ProgressAnimateDialog progressAnimateDialog = ProgressAnimateDialog_.builder()
-                .type(type)
-                .message(message)
-                .cancelable(cancelable)
-                .build();
-        progressAnimateDialog.show(getFragmentManager(), ANIMATED_LOADING_DIALOG);
+//        ProgressAnimateDialog progressAnimateDialog = ProgressAnimateDialog_.builder()
+//                .type(type)
+//                .message(message)
+//                .cancelable(cancelable)
+//                .build();
+//        progressAnimateDialog.show(getFragmentManager(), ANIMATED_LOADING_DIALOG);
     }
     @Override
     protected void onDestroy() {

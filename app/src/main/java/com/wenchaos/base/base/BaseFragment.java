@@ -15,7 +15,6 @@ import com.wenchaos.base.event.ErrorEvent;
 import com.wenchaos.base.util.Toaster;
 import com.wenchaos.base.util.UiUtils;
 import com.wenchaos.base.view.dialog.ProgressAnimateDialog;
-import com.wenchaos.base.view.dialog.ProgressAnimateDialog_;
 
 import org.androidannotations.annotations.EFragment;
 
@@ -46,12 +45,12 @@ public class BaseFragment extends Fragment implements BaseView {
     @Override
     public void showLoadingProgressDialog(@Nullable String message, int type, boolean cancelable) {
         removePrevDialog(ANIMATED_LOADING_DIALOG);
-        ProgressAnimateDialog progressAnimateDialog = ProgressAnimateDialog_.builder()
-                .type(type)
-                .message(message)
-                .cancelable(cancelable)
-                .build();
-        progressAnimateDialog.show(getFragmentManager(), ANIMATED_LOADING_DIALOG);
+//        ProgressAnimateDialog progressAnimateDialog = ProgressAnimateDialog_.builder()
+//                .type(type)
+//                .message(message)
+//                .cancelable(cancelable)
+//                .build();
+//        progressAnimateDialog.show(getFragmentManager(), ANIMATED_LOADING_DIALOG);
     }
 
     @Override
