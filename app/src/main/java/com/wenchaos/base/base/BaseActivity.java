@@ -41,6 +41,7 @@ public abstract class BaseActivity<T extends BasePresent,E extends BaseModel> ex
     private SwipeBackLayout swipeBackLayout;
 
 
+
     @Override
     public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
